@@ -2,7 +2,7 @@
 
 **❗FOR EDUCATIONAL PURPOSES ONLY❗** 
 
-_Keyboard script injection through a Digispark85 board on Windows 7/10/11_
+_Keyboard script injection through a Digispark85 board on Windows 10/11_
 
 ## Getting started 
 
