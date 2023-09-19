@@ -2,7 +2,7 @@
 
 _The project is finished, I need to update this repo for documentation, stay tuned !_ 
 
-# InjectorTTiny
+# InjectorTTiny a Tiny Projet 
 
 **❗FOR EDUCATIONAL PURPOSES ONLY❗** 
 
