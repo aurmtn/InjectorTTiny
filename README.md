@@ -1,3 +1,7 @@
+:construction: Work in progress :construction:
+
+_The project is finished, I need to update this repo for documentation, stay tuned !_ 
+
 # InjectorTTiny
 
 **❗FOR EDUCATIONAL PURPOSES ONLY❗** 
@@ -16,7 +20,15 @@ _Keyboard script injection through a Digispark85 board on Windows 10/11_
 2.  [Setting up the Digispark85 board in Arduino ](https://tinyurl.com/bdewvcpy)
 3.  [Digispark ATtiny85-driver](https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip)
 4. 🇫🇷 🍞 For Azerty keyboard users and baguette speakers :
-![Walktrough to setup DigikeyboardFr] *Add picture*
+   
+![Walktrough to setup DigikeyboardFr](https://github.com/aurmtn/InjectorTTiny/blob/main/tuto%20DigiKeyboardFR.png)
+
+
+
+:construction: Work in progress :construction:
+
+
+
 
 
 
