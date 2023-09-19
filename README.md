@@ -1,5 +1,3 @@
-:construction: Work in progress :construction:
-
 _The project is finished, I need to update this repo for documentation, stay tuned !_ 
 
 # InjectorTTiny a Tiny Projet 
@@ -23,9 +21,6 @@ _Keyboard script injection through a Digispark85 board on Windows 10/11_
    
 ![Walktrough to setup DigikeyboardFr](https://github.com/aurmtn/InjectorTTiny/blob/main/tuto%20DigiKeyboardFR.png)
 
-
-
-:construction: Work in progress :construction:
 
 
 
